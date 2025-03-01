@@ -16,7 +16,8 @@ namespace ConsolePatternsNETFramework
             sb.Append("<p>");
             sb.Append(hello);
             sb.Append("</p>");
-            Console.WriteLine(sb);
+            Console.WriteLine(sb); 
+            //d
 
             //// now I want an HTML list with 2 words in it
             //var words = new[] { "hello", "world" };
