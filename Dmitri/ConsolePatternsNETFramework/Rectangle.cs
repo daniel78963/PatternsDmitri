@@ -2,6 +2,10 @@
 {
     public class Rectangle
     {
+        public Rectangle()
+        {
+                
+        }
         public Rectangle(int width, int heigth)
         {
             Width = width;
@@ -13,7 +17,7 @@
             return $"{nameof(Width)}: {Width}, {nameof(Heigth)}: {Heigth}";
         }
 
-        public int Width { get; }
-        public int Heigth { get; }
+        public virtual int Width { get; set; }
+        public virtual int Heigth { get; set; }
     }
 }
