@@ -43,10 +43,19 @@ namespace ConsolePatternsNETFramework
 
         //}
 
+        //Liskov incomplete 
+        static public int Area(Rectangle rectangle) => rectangle.Width * rectangle.Heigth;
         static void Main(string[] args)
         {
+            Rectangle rectangle = new Rectangle(2, 3);
+            Console.WriteLine($"{rectangle} has an area {Area(rectangle)}");
         }
     }
+
+    // public class DemoRectangule()
+    //{
+    //    static public int Area(Rectangle rectangle) => rectangle.Width * rectangle.Heigth;
+    //}
 
     class HtmlElement
     {
